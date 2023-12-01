@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+nav{
+    height: 60px;
+    width: 100%;
+    border: 1px solid rgb(246, 235, 235);
+    margin: 20px;
+}
+label.logo{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 50px;
+    line-height: 60px;
+}
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 15px;
+    line-height: 60px;
+    font-weight: 500;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+} 
+a:hover{
+    color: black;
+}
+
+
+/* Table and Chart */
+
+.table{
+    padding: 20px;
+    width: 50%;
+}
+
+.qicon{
+float: right;
+color: rgb(218, 215, 215);
+}
+.arrow{
+    color: rgb(218, 215, 215); 
+}
+
+.chart{
+    padding: 30px;
+}
+.main{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(230, 230, 230);
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.click{
+    border: 1px solid  rgb(218, 215, 215); 
+    padding: 5px;
+   
+}
+.chart-tbl{
+    padding: 30px;
+    margin-bottom: 115px;
+}
+.show-hide{
+    margin: 20px;
+height: 450px;
+background-color: white;
+
+}
+.btn-showhide {
+  float: right;
+  margin-top: 60px;
+  margin: 20px;
+}
+
+.btn-showhide button{
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+.chart-btn {
+background-color: blue;
+border-radius: 50px;
+}
+.chart-btn2 {
+    background-color: blue;
+    border-radius: 50px;
+    }
+
+/* Ads */
+
+.text-ad{
+    border: 1px solid rgb(218, 215, 215); 
+    width: 300px;
+    margin: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.text-img{
+    width: 300px;
+    height: 300px;
+    padding: 25px;
+    margin-top: 10px;
+}
+.text{
+    border: 1px solid rgb(218, 215, 215); 
+    height: 80px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(243, 243, 243);
+}
+.text label{
+    color: darkgrey;
+    cursor: pointer;
+}
+
+.media-ad{
+    border: 1px solid rgb(218, 215, 215); 
+    width: 300px;
+    margin: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.media-img{
+    width: 270px;
+    height: 300px;
+    padding: 25px;
+    margin-top: 10px;
+    color: white;
+}
+.Ads{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px;
+  padding: 50px;
+  justify-content: center;
+}
+.main-ads{
+    border: 1px solid rgb(218, 215, 215); 
+    margin: 20px;
+}
+.nxt-btn button{
+   border: 1px solid rgb(34, 146, 183);
+   width: 130px;
+   height: 40px;
+   background-color: rgb(34, 146, 183) ;
+   color: white;
+   border-radius: 5px;
+   /* margin-left: 1450px; */
+   margin-bottom: 20px;
+   cursor: pointer;
+   float: right;
+   margin-right: 50px;
+}
+
+/* Text-Ad form */
+.textad-form{
+    border: 1px solid rgb(218, 215, 215); 
+    margin: 20px;
+    padding: 30px;
+}
+.submit-btn{
+    cursor: pointer;
+    margin-top: 50px;
+    float: right;
+    padding: 12px;
+}
+.back-btn{
+    cursor: pointer;
+    margin: 10px;
+    width: 80px;
+    height: 38px;
+    border: 1px solid  rgb(218, 215, 215);
+    border-radius: 5px;
+    color: black;
+}
+.submit{
+    cursor: pointer;
+    margin: 10px;
+    width: 80px;
+    height: 38px;
+    border: 1px solid  rgb(218, 215, 215);
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(19, 173, 190);
+}
+.submitted{
+    border: 1px solid black;
+}
+
+.modal-wrapper{
+position: fixed;
+left: 0;
+right:0;
+bottom: 0;
+top: 0;
+background-color: rgba(200, 200, 200, 0.9);
+}
+.modal-container{
+position: fixed;
+max-width: 30rem;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background-color: beige;
+width: 250px;
+height: 100px;
+text-align: center;
+padding: 20px;
+}
+.check-icon{
+    color:rgb(24, 189, 222)
+
+}
